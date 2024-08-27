@@ -7,7 +7,7 @@
 
 const char* ssid = "Hoang Tan";
 const char* password = "15041974";
-const char* thingsboardUrl = "http://192.168.1.249:8080/api/v1/iLOa0yPYowDrzxurUpAM/telemetry"; 
+const char* thingsboardUrl = "http://192.168.1.249:8080/api/v1/VYONqrE0rADIBpAxQPjI/telemetry"; 
 
 DHT dht(DHTPIN, DHTTYPE);
 

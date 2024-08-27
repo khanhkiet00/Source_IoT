@@ -13,6 +13,15 @@ services:
     volumes:
       - mytb-data:/data
       - mytb-logs:/var/log/thingsboard
+
+  counterfit:
+    image: "hungldvntts/counterfit-iot:latest"
+    container_name: counterfit
+    ports:
+      - "5000:5000"  # Mở port 9091 trên host, kết nối với port 9090 trong container
+    networks:
+      - default
+
 volumes:
   mytb-data:
     external: true
